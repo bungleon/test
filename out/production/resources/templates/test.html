@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>Test Page</title>
+</head>
+<body>
+    <p>This is test html file</p>
+    <form th:action="@{/test}" method="post">
+        <p>Transaction Name</p>
+        <input type="text" id="name" name="name" autofocus="autofocus" /> <br />
+        <p>Transaction Message</p>
+        <input type="text" id="message" name="message" autofocus="autofocus" /> <br />
+        <input type="submit" value="Save Transaction" />
+
+
+        <input type="text" th:text="${retValue}" id="username2" name="userName2" autofocus="autofocus" /> <br />
+    </form>
+<form th:action="@{/listTransaction}" method="post">
+    <input type="submit" value="List Transaction" />
+</form>
+</body>
+</html>

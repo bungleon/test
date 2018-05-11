@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>List Transaction</title>
+</head>
+<body>
+    <form th:action="@{/list}">
+        <table>
+
+            <tr>
+                <th>Transaction Id</th>
+                <th>Name</th>
+                <th>Message</th>
+                <th>User Id</th>
+                <th>User Name</th>
+                <th>Password</th>
+            </tr>
+            <tr th:each="transaction,iterStat : ${transactions}">
+                <td th:text="${transaction.id}"></td>
+                <td th:text="${transaction.name}"></td>
+                <td th:text="${transaction.message}"></td>
+                <td th:text="${transaction.user.id}"></td>
+                <td th:text="${transaction.user.userName}"></td>
+                <td th:text="${transaction.user.password}"></td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+</html>
