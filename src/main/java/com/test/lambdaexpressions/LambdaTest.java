@@ -1,7 +1,5 @@
 package com.test.lambdaexpressions;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 public class LambdaTest {
     FourOperationsInMath add = (a,b) -> (a + b);
     FourOperationsInMath sub = (a,b) -> a - b;

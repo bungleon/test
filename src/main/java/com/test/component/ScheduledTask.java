@@ -8,13 +8,11 @@ import com.test.lambdaexpressions.LambdaTest;
 import com.test.model.response.EuroParity;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
-import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
@@ -27,10 +25,10 @@ public class ScheduledTask {
     @Autowired
     LambdaTest test;
     /*
-    * Test Application Class'ında @EnableScheduling anotation'ı kullanılarak ScheduleTask enable edildi @Scheduled yapısı
-    * ile de zamanlanmış görevler çalıştırılmaya başlandı.
-    *
-    * */
+     * Test Application Class'ında @EnableScheduling anotation'ı kullanılarak ScheduleTask enable edildi @Scheduled yapısı
+     * ile de zamanlanmış görevler çalıştırılmaya başlandı.
+     * cron ile belirli bir formatta zamanlama yapılabiliyor
+     * */
     private static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
 
     //1 sanıye için 1000 yazılacak.
@@ -94,26 +92,30 @@ public class ScheduledTask {
         }
         taskNo++;
     }
+
     //@Scheduled(fixedDelay = 7000)
     public void fourthMethod() {
         System.out.println("Fourth method run with fixed delay :" + dateFormat.format(new Date()));
         task.doAsyncTask4(taskNo);
         taskNo++;
     }
+
     //@Scheduled(fixedDelay = 5000)
     public void fifthhMethod() {
         System.out.println("Fifth method run with fixed delay :" + dateFormat.format(new Date()));
         task.doAsyncTask5(taskNo);
         taskNo++;
     }
+
     //@Scheduled(fixedDelay = 10000)
     public void sixthhMethod() {
 
         test.getOperations();
     }
+
     //@Scheduled(fixedDelay = 10000)
     public void seventhhMethod() {
-        Arrays.stream(new int[] {1, 3, 5})
+        Arrays.stream(new int[]{1, 3, 5})
                 .map(degisken -> 2 * degisken + 1)
                 .average()
                 .ifPresent(System.out::println);

@@ -1,9 +1,7 @@
 package com.test.eventlistener;
 
-import com.test.events.AbsurtEvent;
 import com.test.events.TestEvent;
 import org.springframework.context.ApplicationListener;
-import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
 
 @Component

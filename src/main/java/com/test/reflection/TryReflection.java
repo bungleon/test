@@ -3,9 +3,7 @@ package com.test.reflection;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import java.io.IOException;
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 public class TryReflection {
@@ -13,14 +11,14 @@ public class TryReflection {
     public TryReflection() {
     }
 
-    public void testReflection(){
+    public void testReflection() {
         //New Reflection Inner Model
-        ReflectionModelInner reflectionModelInner=new ReflectionModelInner();
+        ReflectionModelInner reflectionModelInner = new ReflectionModelInner();
         reflectionModelInner.setId(1);
         reflectionModelInner.setName("OZ");
 
         //New Reflection Model
-        ReflectionModel reflectionModel=new ReflectionModel();
+        ReflectionModel reflectionModel = new ReflectionModel();
         reflectionModel.setId(11);
         reflectionModel.setName("Erman");
         reflectionModel.setReflectionModelInner(reflectionModelInner);
@@ -35,28 +33,29 @@ public class TryReflection {
             e.printStackTrace();
         }
     }
-    public void reachToreflectionModels(String body){
-        ObjectMapper mapper =new ObjectMapper();
+
+    public void reachToreflectionModels(String body) {
+        ObjectMapper mapper = new ObjectMapper();
 
         try {
-            Object object= mapper.readValue(body,Object.class);
+            Object object = mapper.readValue(body, Object.class);
             System.out.println(object);
-            ReflectionModel reflectionModel=mapper.readValue(body,ReflectionModel.class);
+            ReflectionModel reflectionModel = mapper.readValue(body, ReflectionModel.class);
 
-            Field[] fields=object.getClass().getDeclaredFields();
-            Field[] fields2=reflectionModel.getClass().getDeclaredFields();
-            Field[] fields3=reflectionModel.getReflectionModelInner().getClass().getDeclaredFields();
+            Field[] fields = object.getClass().getDeclaredFields();
+            Field[] fields2 = reflectionModel.getClass().getDeclaredFields();
+            Field[] fields3 = reflectionModel.getReflectionModelInner().getClass().getDeclaredFields();
             System.out.println();
             System.out.println();
             System.out.println();
             System.out.println();
             System.out.println();
-            System.out.println("Object = "+object.getClass());
-            for(Field field:fields) {
+            System.out.println("Object = " + object.getClass());
+            for (Field field : fields) {
                 field.setAccessible(true);
-                System.out.println("Field Name "+field+" Value = "+field.get(object));
-                if(field.isAnnotationPresent(Mask.class)){
-                    System.out.println("Aslan Anotation : "+field+" Value = "+field.get(object));
+                System.out.println("Field Name " + field + " Value = " + field.get(object));
+                if (field.isAnnotationPresent(Mask.class)) {
+                    System.out.println("Aslan Anotation : " + field + " Value = " + field.get(object));
                 }
             }
             System.out.println();
@@ -64,12 +63,12 @@ public class TryReflection {
             System.out.println();
             System.out.println();
             System.out.println();
-            System.out.println("Reflection Model = "+reflectionModel.getClass());
-            for(Field field:fields2) {
+            System.out.println("Reflection Model = " + reflectionModel.getClass());
+            for (Field field : fields2) {
                 field.setAccessible(true);
-                System.out.println("Field Name "+field+" Value = "+field.get(reflectionModel));
-                if(field.isAnnotationPresent(Mask.class)){
-                    System.out.println("Aslan Mask Anotation: "+field+" Value = "+field.get(reflectionModel));
+                System.out.println("Field Name " + field + " Value = " + field.get(reflectionModel));
+                if (field.isAnnotationPresent(Mask.class)) {
+                    System.out.println("Aslan Mask Anotation: " + field + " Value = " + field.get(reflectionModel));
                 }
             }
             System.out.println();
@@ -77,12 +76,12 @@ public class TryReflection {
             System.out.println();
             System.out.println();
             System.out.println();
-            System.out.println("Inner Reflection Model = "+reflectionModel.getReflectionModelInner().getClass());
-            for(Field field:fields3) {
+            System.out.println("Inner Reflection Model = " + reflectionModel.getReflectionModelInner().getClass());
+            for (Field field : fields3) {
                 field.setAccessible(true);
-                System.out.println("Field Name "+field+" Value = "+field.get(reflectionModel.getReflectionModelInner()));
-                if(field.isAnnotationPresent(Osman.class)){
-                    System.out.println("Aslan Osman Anotation: "+field+" Value = "+field.get(reflectionModel.getReflectionModelInner()));
+                System.out.println("Field Name " + field + " Value = " + field.get(reflectionModel.getReflectionModelInner()));
+                if (field.isAnnotationPresent(Osman.class)) {
+                    System.out.println("Aslan Osman Anotation: " + field + " Value = " + field.get(reflectionModel.getReflectionModelInner()));
                 }
             }
             System.out.println();
@@ -90,14 +89,14 @@ public class TryReflection {
             System.out.println();
             System.out.println();
             System.out.println();
-            Method[] methods=object.getClass().getMethods();
-            Method[] methods2=reflectionModel.getClass().getMethods();
-            Method[] methods3=reflectionModel.getReflectionModelInner().getClass().getMethods();
-            for(Method method:methods){
+            Method[] methods = object.getClass().getMethods();
+            Method[] methods2 = reflectionModel.getClass().getMethods();
+            Method[] methods3 = reflectionModel.getReflectionModelInner().getClass().getMethods();
+            for (Method method : methods) {
                 method.setAccessible(true);
-                System.out.println("Object Method.getName() = "+method.getName());
-                if(method.getName().equals("toString")){
-                    System.out.println("Object method invoke = "+method.invoke(object,null));
+                System.out.println("Object Method.getName() = " + method.getName());
+                if (method.getName().equals("toString")) {
+                    System.out.println("Object method invoke = " + method.invoke(object, null));
                 }
             }
             System.out.println();
@@ -105,11 +104,11 @@ public class TryReflection {
             System.out.println();
             System.out.println();
             System.out.println();
-            for(Method method:methods2){
+            for (Method method : methods2) {
                 method.setAccessible(true);
-                System.out.println("Reflection Model Method.getName() = "+method.getName());
-                if(method.getName().equals("playMusic")){
-                    System.out.println("Reflection Model method invoke = "+method.invoke(reflectionModel,"Some Music"));
+                System.out.println("Reflection Model Method.getName() = " + method.getName());
+                if (method.getName().equals("playMusic")) {
+                    System.out.println("Reflection Model method invoke = " + method.invoke(reflectionModel, "Some Music"));
                 }
             }
             System.out.println();
@@ -117,11 +116,11 @@ public class TryReflection {
             System.out.println();
             System.out.println();
             System.out.println();
-            for(Method method:methods3){
+            for (Method method : methods3) {
                 method.setAccessible(true);
-                System.out.println("Inner Reflection Model Method.getName() = "+method.getName());
-                if(method.getName().equals("toString")){
-                    System.out.println("Inner Reflection Model method invoke = "+method.invoke(reflectionModel.getReflectionModelInner(),null));
+                System.out.println("Inner Reflection Model Method.getName() = " + method.getName());
+                if (method.getName().equals("toString")) {
+                    System.out.println("Inner Reflection Model method invoke = " + method.invoke(reflectionModel.getReflectionModelInner(), null));
                 }
             }
             System.out.println();
@@ -135,11 +134,7 @@ public class TryReflection {
             System.out.println();
             System.out.println();
             System.out.println();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
