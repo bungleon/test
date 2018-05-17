@@ -53,6 +53,8 @@ dependencies {
     compile('org.seleniumhq.selenium:selenium-server-standalone:2.53.0')
     //get post işlemleri için
     compile('com.mashape.unirest:unirest-java:1.4.9')
+    // Redis
+    compile "org.springframework.boot:spring-boot-starter-data-redis:${springBootVersion}"
 }
 
 eclipse {

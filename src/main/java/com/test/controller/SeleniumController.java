@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpSession;
 
 @RestController
-public class EnBankController {
+public class SeleniumController {
 
-    @RequestMapping(value = "/enbankhavale", method = RequestMethod.POST)
+    @RequestMapping(value = "/havale", method = RequestMethod.POST)
     public String havale(@RequestBody EnBankRequest enBankRequest, HttpSession session) {
         FirefoxDriver firefoxDriver = new FirefoxDriver();
         WebDriver driver = firefoxDriver.newDriver(session);
@@ -91,7 +91,7 @@ public class EnBankController {
     }
 
     // Less than 5.000$
-    @RequestMapping(value = "/enBankEftNormalInterbank", method = RequestMethod.POST)
+    @RequestMapping(value = "/interbank", method = RequestMethod.POST)
     public String normalinterbank(@RequestBody EnBankRequest enBankRequest, HttpSession session) {
         FirefoxDriver firefoxDriver = new FirefoxDriver();
         WebDriver driver = firefoxDriver.newDriver(session);
@@ -174,7 +174,7 @@ public class EnBankController {
     }
 
     // Greater than 5.000 $
-    @RequestMapping(value = "/enbBankEftInterbank", method = RequestMethod.POST)
+    @RequestMapping(value = "/interbankeft", method = RequestMethod.POST)
     public String interbank(@RequestBody EnBankRequest enBankRequest, HttpSession session) {
         FirefoxDriver firefoxDriver = new FirefoxDriver();
         WebDriver driver = firefoxDriver.newDriver(session);
@@ -259,7 +259,7 @@ public class EnBankController {
     }
 
 
-    @RequestMapping(value = "/pasargadBankToOtherReposit", method = RequestMethod.POST)
+    @RequestMapping(value = "/ToOtherReposit", method = RequestMethod.POST)
     public String pasargadBankToOtherReposit(@RequestBody EnBankRequest enBankRequest, HttpSession session) {
         FirefoxDriver firefoxDriver = new FirefoxDriver();
         WebDriver driver = firefoxDriver.newDriver(session);
@@ -344,7 +344,7 @@ public class EnBankController {
         return accountlist.toString();
     }
 
-    @RequestMapping(value = "/pasargadBankPaya", method = RequestMethod.POST)
+    @RequestMapping(value = "/Paya", method = RequestMethod.POST)
     public String pasargadBankPaya(@RequestBody EnBankRequest enBankRequest, HttpSession session) {
         FirefoxDriver firefoxDriver = new FirefoxDriver();
         WebDriver driver = firefoxDriver.newDriver(session);
@@ -443,7 +443,7 @@ public class EnBankController {
     }
 
     // This subject is not finished
-    @RequestMapping(value = "/pasargadBankSatna", method = RequestMethod.POST)
+    @RequestMapping(value = "/Satna", method = RequestMethod.POST)
     public String pasargadBankSatna(@RequestBody EnBankRequest enBankRequest, HttpSession session) {
         FirefoxDriver firefoxDriver = new FirefoxDriver();
         WebDriver driver = firefoxDriver.newDriver(session);

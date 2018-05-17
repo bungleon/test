@@ -86,6 +86,13 @@
           <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-annotations-api:8.5.23" />
           <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.23" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.11" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-redis/1.5.8.RELEASE/b595b09c5c5e4b13d2d4c488cb1b45859cdc66a1/spring-boot-starter-data-redis-1.5.8.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/1.8.8.RELEASE/413a1c5ad0b366e29911a44dbbe83e5246bcfc53/spring-data-redis-1.8.8.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/redis.clients/jedis/2.9.0/292bc9cc26553acd3cccc26f2f95620bf88a04c2/jedis-2.9.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-keyvalue/1.2.8.RELEASE/a0f714781cc8545ca3957f8e0e6332486f5e67f4/spring-data-keyvalue-1.2.8.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-oxm/4.3.12.RELEASE/e09929ed484e884d9e771e27093b715a1be48e3e/spring-oxm-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.3.12.RELEASE/6f3a71b93b69f38ac545b6043fab7e474addee15/spring-context-support-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-pool2/2.4.2/e5f4f28f19d57716fbc3989d7a357ebf1e454fea/commons-pool2-2.4.2.jar" />
         </element>
       </element>
     </root>

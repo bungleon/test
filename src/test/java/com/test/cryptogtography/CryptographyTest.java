@@ -1,6 +1,6 @@
-package com.test.kuveytturk;
+package com.test.cryptogtography;
 
-import com.test.kuveyt_turk.ResolveKey;
+import com.test.cryptography.ResolveKey;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.runners.MockitoJUnitRunner;

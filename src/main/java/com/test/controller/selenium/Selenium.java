@@ -1,4 +1,4 @@
-package com.test.controller.IranianBanks;
+package com.test.controller.selenium;
 
 import com.test.driver.FirefoxDriver;
 import com.test.model.request.EnBankRequest;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpSession;
 
-public abstract class Enbank {
+public abstract class Selenium {
     private WebDriver newDriver(HttpSession session){
         FirefoxDriver firefoxDriver = new FirefoxDriver();
         return firefoxDriver.newDriver(session);
@@ -23,7 +23,7 @@ public abstract class Enbank {
         }
         return newDriver(session);
     }
-    @RequestMapping(value = "/enbankLogin", method = RequestMethod.POST)
+    @RequestMapping(value = "/login", method = RequestMethod.POST)
     public String enbankNormalTransferStart(@RequestBody EnBankRequest enBankRequest, HttpSession session) {
         WebDriver driver=newDriver(session);
         session.setAttribute("driver", driver);
@@ -43,7 +43,7 @@ public abstract class Enbank {
         }
         return driver.toString();
     }
-    @RequestMapping(value = "/enbankCaptcha", method = RequestMethod.POST)
+    @RequestMapping(value = "/captcha", method = RequestMethod.POST)
     public String captcha(@RequestBody EnBankRequest enBankRequest, HttpSession session) {
         WebDriver driver=getDriverInstance(session);
         if(driver==null){
@@ -53,7 +53,7 @@ public abstract class Enbank {
         return "ok";
     }
 
-    @RequestMapping(value = "/enbankEnterNextPage", method = RequestMethod.POST)
+    @RequestMapping(value = "/EnterNextPage", method = RequestMethod.POST)
     public String enbankNormalTransferEnterPage(@RequestBody EnBankRequest enBankRequest, HttpSession session) {
         WebDriver driver=getDriverInstance(session);
         if(driver==null){

@@ -1,4 +1,4 @@
-package com.test.kuveyt_turk;
+package com.test.cryptography;
 
 import org.springframework.util.StreamUtils;
 
