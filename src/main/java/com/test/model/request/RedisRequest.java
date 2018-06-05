@@ -4,11 +4,6 @@ public class RedisRequest {
     private String name;
     private String surname;
 
-    public RedisRequest(String name, String surname) {
-        this.name = name;
-        this.surname = surname;
-    }
-
     public String getName() {
         return name;
     }

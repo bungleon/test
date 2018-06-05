@@ -8,7 +8,6 @@ import com.test.service.login.LoginServiceImpl;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
@@ -20,7 +19,6 @@ public class LoginControllerTest {
     LoginService loginService;
     UserRepository userRepository;
     @Before
-    @BeforeAll
     public void init(){
         userRepository= Mockito.mock(UserRepository.class);
         loginService=new LoginServiceImpl(userRepository);
