@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="510aa8dc-84b1-4478-b363-c51a26c8829f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/model/TestJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/abstract_class_new/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/AbstractClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/ReadFileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/test/component/ScheduledTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/test/component/ScheduledTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/test/controller/EnBankController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/test/controller/IranianBanks/Enbank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/test/eventlistener/CustomEventListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/test/eventlistener/CustomEventListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/test/events/TestEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/test/events/TestEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/test/events/TestEventPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/test/events/TestEventPublisher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/test/kuveyt_turk/ResolveKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/test/lambdaexpressions/LambdaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/test/lambdaexpressions/LambdaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/test/reflection/TryReflection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/test/reflection/TryReflection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/test/streams/IComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/test/streams/IComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/test/streams/StreamExamples$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/test/streams/StreamExamples$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/test/streams/StreamExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/test/streams/StreamExamples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/test/JudgeLockTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/test/LoginControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/test/LoginControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/test/kuveytturk/CryptographyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/model/request/RedisRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/model/request/RedisRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/LoginControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/LoginControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/cryptogtography/CryptographyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/cryptogtography/CryptographyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -101,13 +85,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StringTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/StringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#parseString#0;class#StringTest#0" />
               </folding>
             </state>
@@ -117,17 +100,67 @@
       <file leaf-file-name="CryptographyTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/cryptogtography/CryptographyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state relative-caret-position="544">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResolveKey.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/cryptography/ResolveKey.java">
+      <file leaf-file-name="AbstractClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/abstract_class_new/AbstractClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="29" column="88" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="88" />
+            <state>
+              <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+              <folding>
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractClassTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/test/AbstractClassTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocaleTestClassTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/test/LocaleTestClassTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Base64.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/9.4.1212.jre7/b47f4db2eedb47e03cff3876d8a82415b711354c/postgresql-9.4.1212.jre7-sources.jar!/org/postgresql/util/Base64.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8976">
+              <caret line="531" column="23" selection-start-line="531" selection-start-column="23" selection-end-line="531" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadFileTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/test/ReadFileTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#find#0;class#ReadFileTest#0" />
+                <element signature="e#8062#8063#0" expanded="true" />
+                <element signature="e#8106#8107#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -645,9 +678,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/test/controller/ProxyController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/repository/ProxyBlackListRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/service/proxy/ProxyServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/model/response/RequestMethodsResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/model/request/RequestMethodsRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/controller/OtherController.java" />
@@ -682,7 +712,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test/reflection/TryReflection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/streams/IComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/streams/StreamExamples.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/test/cryptogtography/CryptographyTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/config/RedisConfig.java" />
@@ -696,6 +725,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test/controller/RedisController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/model/TestJson.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/test/StringTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/ReadFileTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/cryptogtography/CryptographyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/abstract_class_new/AbstractClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/AbstractClassTest.java" />
       </list>
     </option>
   </component>
@@ -712,10 +745,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="226" />
-    <option name="y" value="110" />
+    <option name="x" value="84" />
+    <option name="y" value="23" />
     <option name="width" value="2539" />
-    <option name="height" value="1368" />
+    <option name="height" value="1366" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -723,6 +756,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -778,17 +813,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract_class_new" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testproject" type="b2602c69:ProjectViewProjectNode" />
@@ -827,23 +852,11 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="testproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="cryptogtography" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -867,14 +880,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/test/locale" />
       <recent name="$PROJECT_DIR$/src/main/resources/locale" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.test.helper" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/test/locale" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/locale" />
     </key>
   </component>
@@ -890,83 +903,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringTest.parseString">
+  <component name="RunManager" selected="JUnit.AbstractClassTest.test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CryptographyTest.encryptR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testproject_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.cryptogtography.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.test.cryptogtography" />
-      <option name="MAIN_CLASS_NAME" value="com.test.cryptogtography.CryptographyTest" />
-      <option name="METHOD_NAME" value="encryptR" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CryptographyTest.solveLoginRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testproject_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.cryptogtography.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.test.cryptogtography" />
-      <option name="MAIN_CLASS_NAME" value="com.test.cryptogtography.CryptographyTest" />
-      <option name="METHOD_NAME" value="solveLoginRequest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CryptographyTest.solveLoginResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testproject_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.cryptogtography.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.test.cryptogtography" />
-      <option name="MAIN_CLASS_NAME" value="com.test.cryptogtography.CryptographyTest" />
-      <option name="METHOD_NAME" value="solveLoginResponse" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="StringTest.jsonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AbstractClassTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testproject_test" />
       <extension name="coverage">
         <pattern>
@@ -977,8 +921,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.StringTest" />
-      <option name="METHOD_NAME" value="jsonTest" />
+      <option name="MAIN_CLASS_NAME" value="com.test.AbstractClassTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -989,7 +933,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StringTest.parseString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CryptographyTest.base64Decode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testproject_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.cryptogtography.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.test.cryptogtography" />
+      <option name="MAIN_CLASS_NAME" value="com.test.cryptogtography.CryptographyTest" />
+      <option name="METHOD_NAME" value="base64Decode" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ReadFileTest.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testproject_test" />
       <extension name="coverage">
         <pattern>
@@ -1000,8 +967,54 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.StringTest" />
-      <option name="METHOD_NAME" value="parseString" />
+      <option name="MAIN_CLASS_NAME" value="com.test.ReadFileTest" />
+      <option name="METHOD_NAME" value="count" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ReadFileTest.elapsedTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testproject_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.ReadFileTest" />
+      <option name="METHOD_NAME" value="elapsedTimes" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ReadFileTest.seperatedtimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testproject_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.ReadFileTest" />
+      <option name="METHOD_NAME" value="seperatedtimes" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1069,19 +1082,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.TestApplication" />
-      <item itemvalue="JUnit.CryptographyTest.solveLoginResponse" />
-      <item itemvalue="JUnit.CryptographyTest.solveLoginRequest" />
-      <item itemvalue="JUnit.CryptographyTest.encryptR" />
-      <item itemvalue="JUnit.StringTest.parseString" />
-      <item itemvalue="JUnit.StringTest.jsonTest" />
+      <item itemvalue="JUnit.ReadFileTest.seperatedtimes" />
+      <item itemvalue="JUnit.ReadFileTest.count" />
+      <item itemvalue="JUnit.ReadFileTest.elapsedTimes" />
+      <item itemvalue="JUnit.CryptographyTest.base64Decode" />
+      <item itemvalue="JUnit.AbstractClassTest.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringTest.parseString" />
-        <item itemvalue="JUnit.StringTest.jsonTest" />
-        <item itemvalue="JUnit.CryptographyTest.solveLoginResponse" />
-        <item itemvalue="JUnit.CryptographyTest.solveLoginRequest" />
-        <item itemvalue="JUnit.CryptographyTest.encryptR" />
+        <item itemvalue="JUnit.AbstractClassTest.test" />
+        <item itemvalue="JUnit.CryptographyTest.base64Decode" />
+        <item itemvalue="JUnit.ReadFileTest.count" />
+        <item itemvalue="JUnit.ReadFileTest.elapsedTimes" />
+        <item itemvalue="JUnit.ReadFileTest.seperatedtimes" />
       </list>
     </recent_temporary>
   </component>
@@ -1153,7 +1166,12 @@
       <workItem from="1526890713469" duration="13266000" />
       <workItem from="1526978212649" duration="1057000" />
       <workItem from="1527081581091" duration="490000" />
-      <workItem from="1528180753764" duration="788000" />
+      <workItem from="1528180753764" duration="869000" />
+      <workItem from="1528444037811" duration="6923000" />
+      <workItem from="1528806891873" duration="542000" />
+      <workItem from="1528808129668" duration="44000" />
+      <workItem from="1528872287384" duration="2899000" />
+      <workItem from="1529319001125" duration="493000" />
     </task>
     <task id="LOCAL-00001" summary="fsd">
       <created>1526034568380</created>
@@ -1169,43 +1187,50 @@
       <option name="project" value="LOCAL" />
       <updated>1526544081579</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fsd">
+      <created>1528202230813</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528202230813</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringTest_parseString - 2018.05.22 at 09h 43m 32s.xml">
-      <configuration name="StringTest.parseString" configurationId="JUnit" />
+    <history-entry file="ReadFileTest_count - 2018.06.08 at 14h 58m 37s.xml">
+      <configuration name="ReadFileTest.count" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringTest_parseString - 2018.05.22 at 09h 45m 18s.xml">
-      <configuration name="StringTest.parseString" configurationId="JUnit" />
+    <history-entry file="CryptographyTest_base64Decode - 2018.06.12 at 15h 35m 58s.xml">
+      <configuration name="CryptographyTest.base64Decode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringTest_parseString - 2018.05.22 at 09h 45m 36s.xml">
-      <configuration name="StringTest.parseString" configurationId="JUnit" />
+    <history-entry file="CryptographyTest_base64Decode - 2018.06.12 at 15h 39m 19s.xml">
+      <configuration name="CryptographyTest.base64Decode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringTest_parseString - 2018.05.22 at 09h 46m 23s.xml">
-      <configuration name="StringTest.parseString" configurationId="JUnit" />
+    <history-entry file="CryptographyTest_base64Decode - 2018.06.12 at 15h 39m 39s.xml">
+      <configuration name="CryptographyTest.base64Decode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringTest_parseString - 2018.05.22 at 09h 47m 32s.xml">
-      <configuration name="StringTest.parseString" configurationId="JUnit" />
+    <history-entry file="CryptographyTest_base64Decode - 2018.06.13 at 09h 45m 27s.xml">
+      <configuration name="CryptographyTest.base64Decode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringTest_parseString - 2018.05.22 at 09h 48m 23s.xml">
-      <configuration name="StringTest.parseString" configurationId="JUnit" />
+    <history-entry file="CryptographyTest_base64Decode - 2018.06.13 at 09h 47m 45s.xml">
+      <configuration name="CryptographyTest.base64Decode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringTest_parseString - 2018.05.22 at 09h 50m 18s.xml">
-      <configuration name="StringTest.parseString" configurationId="JUnit" />
+    <history-entry file="CryptographyTest_base64Decode - 2018.06.13 at 10h 16m 57s.xml">
+      <configuration name="CryptographyTest.base64Decode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringTest_parseString - 2018.05.22 at 09h 55m 14s.xml">
-      <configuration name="StringTest.parseString" configurationId="JUnit" />
+    <history-entry file="CryptographyTest_base64Decode - 2018.06.13 at 10h 17m 27s.xml">
+      <configuration name="CryptographyTest.base64Decode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringTest_parseString - 2018.05.22 at 09h 56m 27s.xml">
-      <configuration name="StringTest.parseString" configurationId="JUnit" />
+    <history-entry file="CryptographyTest_base64Decode - 2018.06.13 at 10h 27m 47s.xml">
+      <configuration name="CryptographyTest.base64Decode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringTest_parseString - 2018.05.22 at 11h 37m 09s.xml">
-      <configuration name="StringTest.parseString" configurationId="JUnit" />
+    <history-entry file="AbstractClassTest_test - 2018.06.18 at 13h 56m 08s.xml">
+      <configuration name="AbstractClassTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="419144000" />
+    <option name="totallyTimeSpent" value="430126000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1217,7 +1242,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="226" y="110" width="2539" height="1368" extended-state="0" />
+    <frame x="84" y="23" width="2539" height="1366" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -1227,37 +1252,76 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="7" />
       <window_info anchor="right" id="Database" internal_type="SLIDING" order="4" type="SLIDING" weight="0.18290523" />
-      <window_info id="Structure" order="1" sideWeight="0.5032051" side_tool="true" visible="true" weight="0.17701241" />
+      <window_info id="Structure" order="1" sideWeight="0.5072231" side_tool="true" weight="0.18301962" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24934153" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48981398" weight="0.4599359" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32821342" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32371795" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="8" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49692714" weight="0.45028293" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32983023" />
-      <window_info anchor="bottom" id="Spring" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32821342" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49679488" visible="true" weight="0.17701241" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49692714" visible="true" weight="0.54654896" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32932693" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32932693" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32772437" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4927769" weight="0.18301962" />
       <window_info anchor="right" id="Bean Validation" order="7" weight="0.3281665" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info anchor="right" id="Gradle" order="8" visible="true" weight="0.106527835" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Gradle" order="8" weight="0.106527835" />
+      <window_info anchor="right" id="SciView" order="11" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3241714" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32821342" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="8" weight="0.36620858" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3296433" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32821342" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3296433" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.36620858" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24934153" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.36620858" />
+      <window_info id="Designer" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32821342" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32932693" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49692714" weight="0.54727566" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3296433" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32772437" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.510186" side_tool="true" weight="0.476" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32371795" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32821342" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32983023" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32932693" />
+      <window_info anchor="right" id="Maven Projects" internal_type="SLIDING" order="10" type="SLIDING" weight="0.32956383" />
+      <window_info anchor="right" id="Gradle" order="8" visible="true" weight="0.106527835" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4927769" visible="true" weight="0.18301962" />
+      <window_info anchor="right" id="SciView" order="12" />
+      <window_info anchor="right" id="Database" internal_type="SLIDING" order="4" type="SLIDING" weight="0.18290523" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Structure" order="1" sideWeight="0.5072231" side_tool="true" visible="true" weight="0.18301962" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48981398" weight="0.4599359" />
+      <window_info anchor="right" id="Bean Validation" order="7" weight="0.3281665" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1372,11 +1436,29 @@
           <properties />
           <option name="timeStamp" value="203" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/test/ReadFileTest.java</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/test/ReadFileTest.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/test/ReadFileTest.java</url>
+          <line>235</line>
+          <properties />
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="283" />
+      <option name="time" value="298" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1384,66 +1466,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/controller/RSAController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/ReadFileTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-865">
-          <caret line="117" column="65" selection-start-line="117" selection-start-column="65" selection-end-line="117" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/controller/TransactionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/driver/FirefoxDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/eventlistener/CostumEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/events/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/events/DomainEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/events/AbsurtEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/eventlistener/AbsurtEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="3162">
+          <caret line="240" column="35" selection-start-line="240" selection-start-column="35" selection-end-line="240" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#find#0;class#ReadFileTest#0" />
+            <element signature="e#8062#8063#0" expanded="true" />
+            <element signature="e#8106#8107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1639,9 +1671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1715,10 +1744,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/cryptogtography/CryptographyTest.java">
+    <entry file="file://$USER_HOME$/logs/oberonengine.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="255">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/StringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="68">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <element signature="method#parseString#0;class#StringTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/8269667b73d9616600359a9b0ba1b1c7d0cf7a97/mockito-core-1.10.19-sources.jar!/org/mockito/runners/MockitoJUnitRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
@@ -1729,13 +1775,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/StringTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/io/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="220">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/9.4.1212.jre7/b47f4db2eedb47e03cff3876d8a82415b711354c/postgresql-9.4.1212.jre7-sources.jar!/org/postgresql/util/Base64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8976">
+          <caret line="531" column="23" selection-start-line="531" selection-start-column="23" selection-end-line="531" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/ReadFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#parseString#0;class#StringTest#0" />
+            <element signature="method#find#0;class#ReadFileTest#0" />
+            <element signature="e#8062#8063#0" expanded="true" />
+            <element signature="e#8106#8107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/LocaleTestClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/cryptogtography/CryptographyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/abstract_class_new/AbstractClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/AbstractClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
           </folding>
         </state>
       </provider>
