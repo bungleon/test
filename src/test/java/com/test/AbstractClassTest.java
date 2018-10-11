@@ -1,6 +1,7 @@
 package com.test;
 
 import com.test.abstract_class_new.AbstractClass;
+import com.test.model.PublicTestClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.runners.MockitoJUnitRunner;
@@ -18,4 +19,17 @@ public class AbstractClassTest {
         abstractClass.getName();
         abstractClass.getAge();
     }
+
+    @Test
+    public void controlReferencePassing() {
+        PublicTestClass publicTestClass = new PublicTestClass();
+        referencePassing(publicTestClass);
+        System.out.println(publicTestClass.name);
+    }
+
+    private void referencePassing(PublicTestClass publicTestClass) {
+        publicTestClass.name = "Osman";
+    }
+
+
 }

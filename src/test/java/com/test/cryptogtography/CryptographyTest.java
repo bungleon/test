@@ -4,7 +4,11 @@ import com.test.cryptography.ResolveKey;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.runners.MockitoJUnitRunner;
-import org.postgresql.util.Base64;
+import org.springframework.util.StreamUtils;
+
+import java.io.ByteArrayInputStream;
+import java.nio.charset.Charset;
+import java.util.zip.GZIPInputStream;
 
 @RunWith(MockitoJUnitRunner.class)
 public class CryptographyTest {
@@ -56,8 +60,20 @@ public class CryptographyTest {
 	@Test
 	public void base64Decode() {
 		StringBuilder sb = new StringBuilder();
-		sb.append("W3sicCI6Ii9JbnRlcm5ldFxcL2luZGV4XFwuYXNweC9pIiwidCI6W3siZSI6ImxvYWQifV0sInRnIjpbXSwicyI6IjYwMDAwIiwiYyI6eyJkb20uYmxvY2txdW90ZSI6eyJtIjpbeyJ0IjoiYXR0cmlidXRlIiwibiI6InRpdGxlIiwiZiI6InBsYWluIiwiZmkiOltdLCJ0ciI6W3sibXQiOiJ0b1N0cmluZyIsInByIjpbXX1dLCJyIjpbXX1dfSwiZG9tLmRpdiI6eyJtIjpbeyJ0IjoiYXR0cmlidXRlIiwibiI6ImlkIiwiZiI6InBsYWluIiwiZmkiOltdLCJ0ciI6W3sibXQiOiJ0b1N0cmluZyIsInByIjpbXX1dLCJyIjpbXX1dfSwianMiOnsibSI6W3sidCI6ImF0dHJpYnV0ZSIsIm4iOiJrZXkiLCJmIjoicGxhaW4iLCJmaSI6W10sInRyIjpbeyJtdCI6InRvU3RyaW5nIiwicHIiOltdfV0sInIiOltdfV19fSwiYiI6bnVsbCwiaXQiOm51bGx9LHsicCI6Ii9JbnRlcm5ldFxcL0Rhc2hib2FyZFxcLmFzcHgvaSIsInQiOlt7ImUiOiJsb2FkIn1dLCJ0ZyI6W10sInMiOiI2MDAwMCIsImMiOnsiZG9tLmJsb2NrcXVvdGUiOnsibSI6W3sidCI6ImF0dHJpYnV0ZSIsIm4iOiJ0aXRsZSIsImYiOiJwbGFpbiIsImZpIjpbXSwidHIiOlt7Im10IjoidG9TdHJpbmciLCJwciI6W119XSwiciI6W119XX0sImRvbS5kaXYiOnsibSI6W3sidCI6ImF0dHJpYnV0ZSIsIm4iOiJpZCIsImYiOiJwbGFpbiIsImZpIjpbXSwidHIiOlt7Im10IjoidG9TdHJpbmciLCJwciI6W119XSwiciI6W119XX0sImpzIjp7Im0iOlt7InQiOiJhdHRyaWJ1dGUiLCJuIjoia2V5IiwiZiI6InBsYWluIiwiZmkiOltdLCJ0ciI6W3sibXQiOiJ0b1N0cmluZyIsInByIjpbXX1dLCJyIjpbXX1dfX0sImIiOm51bGwsIml0IjpudWxsfSx7InAiOiIvSW50ZXJuZXQvaSIsInQiOlt7ImUiOiJsb2FkIn1dLCJ0ZyI6W10sInMiOiI2MDAwMCIsImMiOnsiZG9tLmJsb2NrcXVvdGUiOnsibSI6W3sidCI6ImF0dHJpYnV0ZSIsIm4iOiJ0aXRsZSIsImYiOiJwbGFpbiIsImZpIjpbXSwidHIiOlt7Im10IjoidG9TdHJpbmciLCJwciI6W119XSwiciI6W119XX0sImRvbS5kaXYiOnsibSI6W3sidCI6ImF0dHJpYnV0ZSIsIm4iOiJpZCIsImYiOiJwbGFpbiIsImZpIjpbXSwidHIiOlt7Im10IjoidG9TdHJpbmciLCJwciI6W119XSwiciI6W119XX0sImRvbS5zY3JpcHQiOnsibSI6W3sidCI6ImF0dHJpYnV0ZSIsIm4iOiJpZCIsImYiOiJwbGFpbiIsImZpIjpbXSwidHIiOlt7Im10IjoidG9TdHJpbmciLCJwciI6W119XSwiciI6W119XX0sImpzIjp7Im0iOlt7InQiOiJhdHRyaWJ1dGUiLCJuIjoia2V5IiwiZiI6InBsYWluIiwiZmkiOltdLCJ0ciI6W3sibXQiOiJ0b1N0cmluZyIsInByIjpbXX1dLCJyIjpbXX1dfX0sImIiOm51bGwsIml0IjpudWxsfV0=");
-		System.out.println(new String(Base64.decode(sb.toString())));
-	}
+        sb.append("F6r-nPknMWdlV55zlOIMfaJEyFc-yoxskPZGGnY2Cus7Qxw6TNrl63wyct8W5CuVgvy7iIhFvLhA4omcFy0f7rjLg09At-to0nKJLTgQu1oQiTZRozJw3t57iu3eNq9PD1i4ZXBTDwKimKi5h81FXoCihW3r0Xq4EkJUuHdLc5XtVJGHRe4xtx3Gi41H0LpVi4_Y8gmo_Le7b37GTb-5JD4fMIFq0457eT1ZzyeY8_vIm40Y_gOmHsFC-2HMgkYZ-SFyO2itBRI46v9GCDzY0p6B_ZyIoRLc-H2I3XanqJ-HZAHhKUQNOECeKwzIMJ5rzSccKbSNrqmmBIgaLpo72v1bydRKVreVAs2nwH4Xto62MM_4");
+        System.out.println(decompress(sb.toString().getBytes()));
 
+
+    }
+
+
+    public String decompress(byte[] data) {
+        try {
+            GZIPInputStream gzipInputStream = new GZIPInputStream(new ByteArrayInputStream(data));
+            return StreamUtils.copyToString(gzipInputStream, Charset.forName("UTF-8"));
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+        return "";
+    }
 }

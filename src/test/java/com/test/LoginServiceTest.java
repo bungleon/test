@@ -25,7 +25,7 @@ public class LoginServiceTest {
     }
 
     @Test
-    public void contolUserTest(){
+    public void controlUserTest() {
         User user;
         Login login=new Login();
         login.setUserName("erman");
